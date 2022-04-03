@@ -6,12 +6,12 @@ const Header = () => {
     return (
         <div>
              <nav className='header'>
-                 <h1>Movies-Re-View</h1>
+                 <h1 className='h1logo text-4xl font-medium'>Movies-Re-View</h1>
             
             
             <div>
                 <Link to="/home">Home</Link>
-                <Link to="/review">Review</Link>
+                <Link to="/reviews">Reviews</Link>
                 <Link to="/dashboard">Dashboard</Link>
                 <Link to="/blog">Blog</Link>
             
