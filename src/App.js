@@ -18,6 +18,7 @@ function App() {
         <Route path='/reviews' element={<Reviews></Reviews>} ></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>} ></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='*'></Route>
         
        
       </Routes>

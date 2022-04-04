@@ -103,7 +103,7 @@ const Chart = () => {
   <Area type="monotone" dataKey="id" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
   <Area type="monotone" dataKey="rating" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
 </AreaChart>
-    <p className='mt-5'>Area Chart</p>
+    <p className='mt-5 font-bold'>Area Chart</p>
   </div>
   <div className="flex-auto w-50 ...">
   <RadialBarChart
@@ -119,7 +119,7 @@ const Chart = () => {
   <Legend iconSize={10} width={120} height={140} layout='vertical' verticalAlign='middle' align="right" />
   <Tooltip />
 </RadialBarChart>
-<p className='mt-5'>RadialBar Chart</p>
+<p className='mt-3 font-bold'>RadialBar Chart</p>
  
   </div>
 </div>

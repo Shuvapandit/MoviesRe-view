@@ -15,7 +15,7 @@ const Review = (props) => {
 
       </div>
       <div>
-      <span className='font-semibold'>Description:</span> {description} <br></br>
+      <span className='font-semibold'>Description:</span> <span className='text-justify'>{description}</span> <br></br>
       <span className='font-semibold'> Rating: </span> <span className='text-sky-500 font-semibold'>{rating}.</span>
 
       </div>
