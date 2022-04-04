@@ -11,7 +11,7 @@ const Review = (props) => {
  <div className="grid grid-rows-1 grid-flow-col gap-1 bgclr ml-10 mr-10 text-left p-10 ">
   <div>
       <div>
-     <p className='text-base font-bold'> Name: {name}</p>
+     <p className='text-base font-bold'> Reviewed by:<span className='rvwn'> {name}</span> </p>
 
       </div>
       <div>
